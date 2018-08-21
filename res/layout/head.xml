@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="#B3B3B3"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E8E8E8"
+        android:clickable="true"
+        android:layout_marginBottom="2dp"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/head_name"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#E8E8E8"
+            android:gravity="center"
+            android:text="设备"
+            android:textSize="19dp" />
+
+        <ImageView
+            android:id="@+id/head_camaro"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:background="#E8E8E8"
+            android:clickable="true"
+            android:src="@drawable/camaro_image" />
+    </RelativeLayout>
+
+</LinearLayout>

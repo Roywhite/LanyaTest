@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+       <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" 
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp">
+
+        <ImageView
+            android:id="@+id/main_iv_imag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/game_disc" />
+
+        <EditText
+            android:id="@+id/main_et_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/main_iv_imag"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:ems="15"
+            android:hint="请输入账号"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/main_et_passwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/main_et_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:ems="15"
+            android:hint="请输入密码"
+            android:inputType="textPassword" />
+
+        <CheckBox
+            android:id="@+id/main_cb_remember"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/main_et_passwd"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="记住密码" />
+
+        <Button
+            android:id="@+id/main_bn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/main_cb_remember"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="登录" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp" >
+
+        <TextView
+            android:id="@+id/main_tv_forgetpasswd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="忘记密码" />
+		<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="|" />
+        <TextView
+            android:id="@+id/main_tv_zhuce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:text="转入注册" />
+    </LinearLayout>
+
+
+</RelativeLayout>

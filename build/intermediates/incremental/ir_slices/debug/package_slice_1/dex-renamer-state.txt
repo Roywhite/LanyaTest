@@ -1,0 +1,4 @@
+#Tue Aug 21 14:06:27 CST 2018
+base.0=F\:\\WorkspaceAndroid\\Lanya\\build\\intermediates\\transforms\\dexMerger\\debug\\59
+path.0=classes.dex
+renamed.0=classes.dex

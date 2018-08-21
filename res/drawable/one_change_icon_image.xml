@@ -1,0 +1,7 @@
+<!--one_change_icon_image.xml-->  
+<selector xmlns:android="http://schemas.android.com/apk/res/android">  
+  
+<item android:drawable="@drawable/lanya_select" android:state_selected="true"/>  
+<item android:drawable="@drawable/lanya"/>  
+ 
+</selector>  

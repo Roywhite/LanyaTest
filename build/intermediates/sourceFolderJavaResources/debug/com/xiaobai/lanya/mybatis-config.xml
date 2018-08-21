@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!DOCTYPE configuration  
+	PUBLIC "-//mybatis.org//DTD Config 3.0//EN"  
+	"http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	<!-- 配置外部配置文件 -->
+	<properties resource="oracle.properties"></properties>
+	<!-- 全局设置 -->
+	<settings>
+		<setting name="logPrefix" value="true" />
+		<!-- <setting name="cacheEnable" value="true" /> -->
+	</settings>
+	<!-- 配置别名 -->
+	<typeAliases>
+		<!-- <typeAlias type="com.briup.bean.Student" alias="Student" /> -->
+		<!-- <package name="com.briup.bean" /> -->
+		<package name="com.briup.orm.otm" />
+		<package name="com.briup.orm.oto" />
+		<!-- <package name="com.briup.orm.mtm" /> -->
+	</typeAliases>
+	<!-- 类型转换器 ，这个和类的类型转换有关，将phoneNumber类转换为数据进数据库 -->
+	<typeHandlers>
+		<typeHandler handler="com.briup.common.PhoneNumberTypeHandler" />
+		<!-- enum类型转换 -->
+		<typeHandler handler="org.apache.ibatis.type.EnumOrdinalTypeHandler" javaType = "com.briup.special.Gender"/>
+	</typeHandlers>
+	<environments default="development">
+		<environment id="development">
+			<transactionManager type="JDBC" />
+			<dataSource type="POOLED">
+				<property name="driver" value="${driver}" />
+				<property name="url" value="${url}" />
+				<property name="username" value="${username}" />
+				<property name="password" value="${password}" />
+			</dataSource>
+		</environment>
+	</environments>
+	<!-- <mappers>
+		<mapper resource="com/briup/mapper/studentMapper.xml" />
+	</mappers> -->
+	<!-- <mappers>
+		<mapper resource="src/com/briup/orm/otm/otm.xml" />
+	</mappers> -->
+	<!-- <mappers>
+		<mapper resource="com/briup/dynamicsql/dynamicsql.xml" />
+	</mappers> -->
+	<mappers>
+		<mapper resource="com/briup/special/specialmapper.xml" />
+		<mapper class="com.briup.anno.PersonMapper" />
+	</mappers>
+	
+</configuration>
+	

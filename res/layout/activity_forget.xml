@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" 
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp">
+
+        <EditText
+            android:id="@+id/forget_et_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:layout_centerHorizontal="true"
+            android:hint="请输入用户名" 
+            android:inputType="number"/>
+		
+        <EditText
+            android:id="@+id/forget_et_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            android:hint="请输入手机号" 
+            android:inputType="number"/>
+        
+        <Button
+            android:id="@+id/forget_bn_forget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/forget_et_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:text="找回密码" />
+    </RelativeLayout>
+	
+</RelativeLayout>

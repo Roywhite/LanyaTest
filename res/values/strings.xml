@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">校园蓝牙贴</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_zhuce">ZhuceActivity</string>
+    <string name="title_activity_forget">ForgetActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_lanya_fragment">LanyaFragment</string>
+    <string name="title_activity_gonggaolan_fragment">GonggaolanFragment</string>
+    <string name="title_activity_set_fragment">SetFragment</string>
+
+</resources>

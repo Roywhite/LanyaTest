@@ -1,0 +1,47 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\WorkspaceAndroid\\Lanya\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\dell-pc\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.0.aar\\3ff9e75f5e64862e64b895875b04ba9f\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,19,32,33,34,35",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1277,2079,2184,2299,2406",
+                        "endLines": "2,3,4,5,18,31,32,33,34,35",
+                        "endColumns": "134,134,74,86,12,12,104,114,106,112",
+                        "endOffsets": "185,320,395,482,1272,2074,2179,2294,2401,2514"
+                    },
+                    "to": {
+                        "startLines": "12,13,14,15,16,29,42,43,44,45",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "631,766,901,976,1063,1853,2655,2760,2875,2982",
+                        "endLines": "12,13,14,15,28,41,42,43,44,45",
+                        "endColumns": "134,134,74,86,12,12,104,114,106,112",
+                        "endOffsets": "761,896,971,1058,1848,2650,2755,2870,2977,3090"
+                    }
+                },
+                {
+                    "source": "F:\\WorkspaceAndroid\\Lanya\\res\\values-v23\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endLines": "11",
+                        "endColumns": "12",
+                        "endOffsets": "637"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "11",
+                        "endColumns": "12",
+                        "endOffsets": "626"
+                    }
+                }
+            ]
+        }
+    ]
+}

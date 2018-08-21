@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" 
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp">
+
+        <EditText
+            android:id="@+id/zhuce_et_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:layout_centerHorizontal="true"
+            android:hint="请输入账号" 
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/zhuce_et_passwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/main_et_name"
+            android:ems="15"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:hint="请输入密码" 
+            android:inputType="textPassword"/>
+
+        <EditText
+            android:id="@+id/zhuce_et_againPasswd"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/main_et_passwd"
+            android:ems="15"
+            android:layout_marginTop="100dp"
+            android:hint="请再次输入密码" 
+            android:inputType="textPassword"/>
+        
+        <EditText
+            android:id="@+id/zhuce_et_phone"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/zhuce_et_againPasswd"
+            android:ems="15"
+            android:layout_marginTop="20dp"
+            android:hint="请输入手机号(用于取回密码)" 
+            android:inputType="number"/>
+        
+        <Button
+            android:id="@+id/zhuce_bn_zhuce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/zhuce_et_phone"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="注册" />
+    </RelativeLayout>
+	
+</RelativeLayout>
