@@ -34,12 +34,12 @@
         android:id="@+id/main_left_menus"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:layout_width="300dp"
+        android:layout_width="match_parent"
         android:orientation="vertical">
         <include android:id="@+id/youhua"
             layout="@layout/youhua"
             android:layout_height="match_parent"
-            android:layout_width="300dp"
+            android:layout_width="match_parent"
             >
         </include>
     </LinearLayout>

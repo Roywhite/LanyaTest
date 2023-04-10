@@ -1,5 +1,5 @@
 /** Automatically generated file. DO NOT MODIFY */
-package com.xiaobai.lanya;
+package com.xiaobai.bookStore;
 
 public final class BuildConfig {
     public final static boolean DEBUG = true;

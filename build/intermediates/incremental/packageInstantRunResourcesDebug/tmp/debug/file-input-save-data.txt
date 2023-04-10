@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Mon Apr 22 01:48:01 CST 2019
+0.baseType=DIRECTORY
+0.base=F\:\\WorkspaceAndroid\\Lanya\\build\\intermediates\\assets\\debug
+0.path=lanyashebeidiushi.mp3
+0.set=ASSET
+count=1

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:id="@+id/search_list_book_name"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:background="#c1f7a1a1"
+        android:text="书名"/>
+
+    <TextView android:id="@+id/search_list_bookStore"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/search_list_book_name"
+        android:background="#c175eefc"
+        android:gravity="center"
+        android:text="店名"/>
+
+    <TextView android:id="@+id/search_list_bookAddress"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:text="地址"
+        android:layout_toEndOf="@+id/search_list_bookStore"
+        android:layout_toStartOf="@+id/search_list_bookNum"
+        android:background="#c195ffa5"
+        android:layout_marginTop="10dp"/>
+
+    <TextView android:id="@+id/search_list_bookNum"
+        android:layout_width="50dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"
+        android:background="#c1e2f798"
+        android:text="数量"/>
+
+
+</RelativeLayout>

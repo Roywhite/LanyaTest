@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+    <TextView android:id="@+id/buyscore_tv_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/textview_border"
+        android:textStyle="bold"
+        android:text="提示内容"
+        android:textSize="25dp"
+        />
+
+    <LinearLayout android:id="@+id/buyscore_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buyscore_tv_msg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp">
+
+    <Button android:id="@+id/buyscore_bt_lessmoney"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="￥低价"
+        android:textColor="#46e77b"
+        android:textSize="50dp" />
+    <Button android:id="@+id/buyscore_bt_moremoney"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_toEndOf="@+id/buyscore_bt_lessmoney"
+        android:text="￥高价"
+        android:textColor="#46e77b"
+        android:textSize="50dp" />
+    </LinearLayout>
+
+    <Button android:id="@+id/buyscore_skip"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buyscore_ll"
+        android:layout_marginTop="25dp"
+        android:text="跳过"
+        android:textColor="#fc2b2b"
+        android:layout_centerHorizontal="true"
+        android:textSize="50dp"/>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -20,7 +20,7 @@
             android:layout_height="60dp"
             android:background="#E8E8E8"
             android:gravity="center"
-            android:text="设备"
+            android:text="主界面"
             android:textSize="19dp" />
 
         <ImageView

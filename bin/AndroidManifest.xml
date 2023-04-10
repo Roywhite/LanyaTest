@@ -47,7 +47,7 @@
             android:label="@string/title_activity_gonggaolan_fragment" >
         </activity>
         <activity
-            android:name="com.xiaobai.lanya.view.SetFragment"
+            android:name="com.xiaobai.bookStore.view.TuijianFragment"
             android:label="@string/title_activity_set_fragment" >
         </activity>
     </application>

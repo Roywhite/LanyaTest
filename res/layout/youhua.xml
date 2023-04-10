@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="130dp"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#B3B3B3"
     android:orientation="vertical">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_marginBottom="2dp"
@@ -14,21 +14,25 @@
 
         <ImageView
             android:id="@+id/youhua_pic"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_gravity="center_vertical"
-            android:layout_marginLeft="18dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
             android:src="@drawable/game_disc" />
 
         <TextView
             android:id="@+id/youhua_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:layout_marginLeft="15dp"
-            android:text="小白"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/youhua_pic"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="昵称"
+            android:maxEms="4"
             android:textSize="40dp" />
-    </LinearLayout>
+
+    </RelativeLayout>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -54,13 +58,23 @@
             android:textSize="19dp" />
 
         <TextView
+            android:id="@+id/youhua_buyscore"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="17dp"
+            android:background="#E8E8E8"
+            android:gravity="center"
+            android:text="信用分充值"
+            android:textSize="19dp" />
+
+        <TextView
             android:id="@+id/youhua_sendBack"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_marginTop="17dp"
             android:background="#E8E8E8"
             android:gravity="center"
-            android:text="应用反馈"
+            android:text="租借书籍"
             android:textSize="19dp" />
 
         <TextView

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout android:id="@+id/rl_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp">
+
+    <TextView android:id="@+id/history_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="订单："/>
+    <TextView android:id="@+id/history_book_dingdan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/history_1"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:text="xxxxxxx"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout android:id="@+id/rl_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/rl_01">
+
+    <TextView android:id="@+id/history_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="书籍："/>
+    <TextView android:id="@+id/history_book_bookname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/history_2"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:text="xxx"/>
+    </RelativeLayout>
+
+    <RelativeLayout android:id="@+id/rl_03"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/rl_02">
+        <TextView android:id="@+id/history_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="租借店："/>
+        <TextView android:id="@+id/history_book_bookstore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/history_3"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:text="xx"/>
+    </RelativeLayout>
+
+    <RelativeLayout android:id="@+id/rl_04"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_03">
+        <TextView android:id="@+id/history_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="租借状况："/>
+        <TextView android:id="@+id/history_book_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/history_4"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:text="正常"/>
+    </RelativeLayout>
+
+</RelativeLayout>

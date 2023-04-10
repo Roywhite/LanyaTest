@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#B3B3B3B3"
+        android:background="#8CB3B3B3"
         android:gravity="center"
         android:orientation="vertical">
 
@@ -29,8 +29,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="设备"
+            android:textStyle="bold"
             android:textColor="@color/change_color_text"
-            android:textSize="15dp" >
+            android:textSize="16dp" >
         </TextView>
     </LinearLayout>
 

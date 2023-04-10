@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.xiaobai.lanya"
-    android:versionCode="2"
-    android:versionName="2.5" >
+    package="com.xiaobai.bookStore"
+    android:versionCode="3"
+    android:versionName="3.1" >
 
     <uses-sdk
         android:minSdkVersion="19"
         android:targetSdkVersion="23" />
 
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autoFocus" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 上面是扫码的 -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
@@ -20,10 +31,19 @@
         android:name="android.hardware.bluetooth_le"
         android:required="true" />
 
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
     <application
         android:allowBackup="true"
         android:debuggable="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/bookstore"
         android:label="@string/app_name"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
@@ -32,10 +52,10 @@
             android:value="2.1" />
 
         <activity
-            android:name="com.xiaobai.lanya.view.LoginMainActivity"
+            android:name="com.xiaobai.bookStore.view.LoginMainActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="portrait" >
-        android:label="@string/app_name" >
+            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -43,43 +63,63 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.xiaobai.lanya.view.ZhuceActivity"
+            android:name="com.xiaobai.bookStore.view.ZhuceActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_zhuce"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
-            android:name="com.xiaobai.lanya.view.ForgetActivity"
-            android:label="@string/title_activity_forget" >
-        </activity>
+            android:name="com.xiaobai.bookStore.view.ForgetActivity"
+            android:label="@string/title_activity_forget" />
         <activity
-            android:name="com.xiaobai.lanya.view.MainActivity"
+            android:name="com.xiaobai.bookStore.view.MainActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_main"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
-            android:name="com.xiaobai.lanya.view.LanyaFragment"
+            android:name="com.xiaobai.bookStore.view.HomeFragment"
             android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/title_activity_lanya_fragment"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:label="@string/title_activity_home_fragment"
+            android:screenOrientation="portrait" />
         <activity
-            android:name="com.xiaobai.lanya.view.GonggaolanFragment"
+            android:name="com.xiaobai.bookStore.view.ReturnBookFragment"
             android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/title_activity_gonggaolan_fragment"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:label="@string/title_activity_returnbook_fragment"
+            android:screenOrientation="portrait" />
         <activity
-            android:name="com.xiaobai.lanya.view.SetFragment"
+            android:name="com.xiaobai.bookStore.view.TuijianFragment"
             android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/title_activity_set_fragment"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:label="@string/title_activity_zone_fragment"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.xiaobai.bookStore.view.SearchActivity" />
+        <activity android:name="com.xiaobai.bookStore.view.EditPersonActivity" />
+        <activity android:name="com.xiaobai.bookStore.view.EditNameActivity" />
+        <activity android:name="com.xiaobai.bookStore.view.EditPasswdActivity" />
+        <activity android:name="com.xiaobai.bookStore.view.ServerYourelfActivity" />
+        <activity android:name="com.xiaobai.bookStore.view.BuyScoreActivity" />
+        <activity android:name="com.xiaobai.bookStore.view.NowBookActivity" />
+        <activity android:name="com.xiaobai.bookStore.view.HistoryBookActivity" />
+        <activity android:name="com.xiaobai.bookStore.view.ChooseStoreDialogActivity" />
+        <activity android:name="com.xiaobai.bookStore.view.RentBookActivity" />
+        <activity android:name="com.xiaobai.bookStore.view.RentBookTwoWeiPicActivity" />
+        <activity android:name="com.xiaobai.bookStore.view.BookFriendTalkFragment" />
+        <activity android:name="com.xiaobai.bookStore.view.AddTalkActivity" />
+        <activity
+            android:name="com.yzq.zxinglibrary.android.CaptureActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"
-            android:authorities="com.xiaobai.lanya.com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="com.xiaobai.bookStore.com.android.tools.ir.server.InstantRunContentProvider"
             android:multiprocess="true" />
     </application>
 

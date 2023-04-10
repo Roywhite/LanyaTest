@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Aug 21 14:06:28 CST 2018
+#Thu May 09 17:45:07 CST 2019
 2.base=F\:\\WorkspaceAndroid\\Lanya\\build\\intermediates\\transforms\\dexMerger\\debug\\71
 5.set=DEX
 0.path=classes.dex

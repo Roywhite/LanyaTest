@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"
+        android:background="#f2dcbc">
+
+    <TextView android:id="@+id/bookName_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="40dp"
+        android:textStyle="bold"
+        android:text="书名："/>
+    <TextView android:id="@+id/bookName_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/bookName_title"
+        android:layout_alignTop="@+id/bookName_title"
+        android:textSize="22sp"
+        android:textColor="#f93131"
+        android:text="《测试》"/>
+    <TextView android:id="@+id/booleanTalk_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_below="@+id/bookName_title"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="15dp"
+        android:textStyle="bold"
+        android:text="是否进行书评："/>
+    <TextView android:id="@+id/booleanTalk_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/booleanTalk_title"
+        android:layout_alignTop="@+id/booleanTalk_title"
+        android:textSize="22sp"
+        android:textColor="#f93131"
+        android:text="否"/>
+    </RelativeLayout>
+</RelativeLayout>

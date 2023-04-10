@@ -1,16 +1,27 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:2:1-75:12
-INJECTED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:2:1-75:12
-INJECTED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:2:1-75:12
-MERGED from [com.android.support:appcompat-v7:23.2.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.2.0.aar\3ff9e75f5e64862e64b895875b04ba9f\AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:animated-vector-drawable:23.2.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.2.0.aar\49bb5b81d8fe32ffc82b2b2db8d40460\AndroidManifest.xml:2:1-9:12
-MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.2.0.aar\5f16c6f3a19101ef5e0eeb67af759c0a\AndroidManifest.xml:2:1-9:12
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-v4-23.2.0.aar\5179776f16d4e4dd65c99ef5bac4e514\AndroidManifest.xml:17:1-24:12
-INJECTED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:2:1-75:12
-INJECTED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:2:1-75:12
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:2:1-104:12
+INJECTED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:2:1-104:12
+INJECTED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:2:1-104:12
+MERGED from [com.github.yuzhiqiang1993:zxing:2.2.8] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\zxing-2.2.8.aar\340d1a8002412d547e8ed3646d01964a\AndroidManifest.xml:2:1-31:12
+MERGED from [com.android.support:design:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\366423602baabcc59f10b1a44c001c00\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\26126033b005fb7b99c3ad99fd06339d\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\3510c609821921647edf0414ca0badb0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:transition:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\e8713581ebba06d6476b7505d38f48ee\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\33ed7ca0f6fd3ad44420df3c38c621bc\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\7a0f08eba699fd660b3a717dcae0a97c\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\cd0880861f30300a432c201c1b2b140d\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\31685dfb13e68a797c62a9ad63653e96\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\bf751ea769131a138b3c746f5458e9a8\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\9369c2184a94fbeeee7c4cc6c45745f1\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\5061bb2b90004fe9431c74a28fa19781\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\2c7fc481dcfaf695b04405c9bae5bc68\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f2fd8bcda13dddb8ec0b780752022f64\AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\902344e03920d031d389a08addf4dd00\AndroidManifest.xml:17:1-30:12
+INJECTED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:2:1-104:12
+INJECTED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:2:1-104:12
 	package
-		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:3:5-32
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:3:5-36
 	android:versionName
 		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:5:5-30
 		INJECTED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml
@@ -23,149 +34,361 @@ INJECTED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:2:1-75:12
 		INJECTED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml
 uses-sdk
 ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:23.2.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.2.0.aar\3ff9e75f5e64862e64b895875b04ba9f\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:23.2.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.2.0.aar\3ff9e75f5e64862e64b895875b04ba9f\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:23.2.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.2.0.aar\49bb5b81d8fe32ffc82b2b2db8d40460\AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:animated-vector-drawable:23.2.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.2.0.aar\49bb5b81d8fe32ffc82b2b2db8d40460\AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.2.0.aar\5f16c6f3a19101ef5e0eeb67af759c0a\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.2.0.aar\5f16c6f3a19101ef5e0eeb67af759c0a\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-v4-23.2.0.aar\5179776f16d4e4dd65c99ef5bac4e514\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-v4-23.2.0.aar\5179776f16d4e4dd65c99ef5bac4e514\AndroidManifest.xml:20:5-43
+MERGED from [com.github.yuzhiqiang1993:zxing:2.2.8] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\zxing-2.2.8.aar\340d1a8002412d547e8ed3646d01964a\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.yuzhiqiang1993:zxing:2.2.8] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\zxing-2.2.8.aar\340d1a8002412d547e8ed3646d01964a\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\366423602baabcc59f10b1a44c001c00\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\366423602baabcc59f10b1a44c001c00\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\26126033b005fb7b99c3ad99fd06339d\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\26126033b005fb7b99c3ad99fd06339d\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\3510c609821921647edf0414ca0badb0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\3510c609821921647edf0414ca0badb0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:transition:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\e8713581ebba06d6476b7505d38f48ee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\e8713581ebba06d6476b7505d38f48ee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\33ed7ca0f6fd3ad44420df3c38c621bc\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\33ed7ca0f6fd3ad44420df3c38c621bc\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\7a0f08eba699fd660b3a717dcae0a97c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\7a0f08eba699fd660b3a717dcae0a97c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\cd0880861f30300a432c201c1b2b140d\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\cd0880861f30300a432c201c1b2b140d\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\31685dfb13e68a797c62a9ad63653e96\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\31685dfb13e68a797c62a9ad63653e96\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\bf751ea769131a138b3c746f5458e9a8\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\bf751ea769131a138b3c746f5458e9a8\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\9369c2184a94fbeeee7c4cc6c45745f1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\9369c2184a94fbeeee7c4cc6c45745f1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\5061bb2b90004fe9431c74a28fa19781\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\5061bb2b90004fe9431c74a28fa19781\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\2c7fc481dcfaf695b04405c9bae5bc68\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\2c7fc481dcfaf695b04405c9bae5bc68\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f2fd8bcda13dddb8ec0b780752022f64\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f2fd8bcda13dddb8ec0b780752022f64\AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\902344e03920d031d389a08addf4dd00\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\902344e03920d031d389a08addf4dd00\AndroidManifest.xml:20:5-22:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:23.2.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.2.0.aar\3ff9e75f5e64862e64b895875b04ba9f\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:design:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\366423602baabcc59f10b1a44c001c00\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:9:9-38
 	android:minSdkVersion
 		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:8:9-35
+uses-permission#android.permission.CAMERA
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:11:5-65
+MERGED from [com.github.yuzhiqiang1993:zxing:2.2.8] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\zxing-2.2.8.aar\340d1a8002412d547e8ed3646d01964a\AndroidManifest.xml:11:5-65
+MERGED from [com.github.yuzhiqiang1993:zxing:2.2.8] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\zxing-2.2.8.aar\340d1a8002412d547e8ed3646d01964a\AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:11:22-62
+uses-permission#android.permission.FLASHLIGHT
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:12:5-69
+MERGED from [com.github.yuzhiqiang1993:zxing:2.2.8] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\zxing-2.2.8.aar\340d1a8002412d547e8ed3646d01964a\AndroidManifest.xml:12:5-69
+MERGED from [com.github.yuzhiqiang1993:zxing:2.2.8] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\zxing-2.2.8.aar\340d1a8002412d547e8ed3646d01964a\AndroidManifest.xml:12:5-69
+	android:name
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:12:22-66
+uses-feature#android.hardware.camera
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:14:5-60
+MERGED from [com.github.yuzhiqiang1993:zxing:2.2.8] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\zxing-2.2.8.aar\340d1a8002412d547e8ed3646d01964a\AndroidManifest.xml:14:5-60
+MERGED from [com.github.yuzhiqiang1993:zxing:2.2.8] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\zxing-2.2.8.aar\340d1a8002412d547e8ed3646d01964a\AndroidManifest.xml:14:5-60
+	android:name
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:14:19-57
+uses-feature#android.hardware.camera.autoFocus
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:15:5-70
+	android:name
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:15:19-67
+uses-permission#android.permission.VIBRATE
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:17:5-66
+MERGED from [com.github.yuzhiqiang1993:zxing:2.2.8] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\zxing-2.2.8.aar\340d1a8002412d547e8ed3646d01964a\AndroidManifest.xml:17:5-66
+MERGED from [com.github.yuzhiqiang1993:zxing:2.2.8] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\zxing-2.2.8.aar\340d1a8002412d547e8ed3646d01964a\AndroidManifest.xml:17:5-66
+	android:name
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:17:22-63
+uses-permission#android.permission.WAKE_LOCK
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:18:5-68
+MERGED from [com.github.yuzhiqiang1993:zxing:2.2.8] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\zxing-2.2.8.aar\340d1a8002412d547e8ed3646d01964a\AndroidManifest.xml:18:5-68
+MERGED from [com.github.yuzhiqiang1993:zxing:2.2.8] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\zxing-2.2.8.aar\340d1a8002412d547e8ed3646d01964a\AndroidManifest.xml:18:5-68
+	android:name
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:18:22-65
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:19:5-80
+MERGED from [com.github.yuzhiqiang1993:zxing:2.2.8] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\zxing-2.2.8.aar\340d1a8002412d547e8ed3646d01964a\AndroidManifest.xml:19:5-80
+MERGED from [com.github.yuzhiqiang1993:zxing:2.2.8] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\zxing-2.2.8.aar\340d1a8002412d547e8ed3646d01964a\AndroidManifest.xml:19:5-80
+	android:name
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:19:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:20:5-81
+MERGED from [com.github.yuzhiqiang1993:zxing:2.2.8] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\zxing-2.2.8.aar\340d1a8002412d547e8ed3646d01964a\AndroidManifest.xml:20:5-81
+MERGED from [com.github.yuzhiqiang1993:zxing:2.2.8] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\zxing-2.2.8.aar\340d1a8002412d547e8ed3646d01964a\AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:20:22-78
 uses-permission#android.permission.INTERNET
-ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:11:5-67
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:22:5-67
 	android:name
-		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:11:22-64
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:22:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:12:5-79
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:23:5-79
 	android:name
-		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:12:22-76
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:23:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:13:5-76
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:24:5-76
 	android:name
-		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:13:22-73
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:24:22-73
 uses-permission#android.permission.BLUETOOTH
-ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:14:5-67
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:25:5-68
 	android:name
-		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:14:22-65
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:25:22-65
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:15:5-73
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:26:5-74
 	android:name
-		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:15:22-71
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:26:22-71
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:16:5-80
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:27:5-81
 	android:name
-		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:16:22-78
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:27:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:17:5-78
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:28:5-79
 	android:name
-		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:17:22-76
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:28:22-76
 uses-feature#android.hardware.bluetooth_le
-ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:18:5-103
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:30:5-32:35
 	android:required
-		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:18:64-87
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:32:9-32
 	android:name
-		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:18:19-63
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:31:9-53
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:35:5-71
+	android:name
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:35:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:36:5-71
+	android:name
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:36:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:37:5-72
+	android:name
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:37:22-69
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:38:5-75
+	android:name
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:38:22-72
+uses-permission#android.permission.READ_CALL_LOG
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:39:5-72
+	android:name
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:39:22-69
 application
-ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:20:5-73:19
-MERGED from [com.android.support:appcompat-v7:23.2.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.2.0.aar\3ff9e75f5e64862e64b895875b04ba9f\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:23.2.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.2.0.aar\3ff9e75f5e64862e64b895875b04ba9f\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.2.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.2.0.aar\49bb5b81d8fe32ffc82b2b2db8d40460\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.2.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.2.0.aar\49bb5b81d8fe32ffc82b2b2db8d40460\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.2.0.aar\5f16c6f3a19101ef5e0eeb67af759c0a\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.2.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.2.0.aar\5f16c6f3a19101ef5e0eeb67af759c0a\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-v4-23.2.0.aar\5179776f16d4e4dd65c99ef5bac4e514\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.2.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-v4-23.2.0.aar\5179776f16d4e4dd65c99ef5bac4e514\AndroidManifest.xml:22:5-20
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:41:5-102:19
+MERGED from [com.github.yuzhiqiang1993:zxing:2.2.8] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\zxing-2.2.8.aar\340d1a8002412d547e8ed3646d01964a\AndroidManifest.xml:22:5-29:19
+MERGED from [com.github.yuzhiqiang1993:zxing:2.2.8] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\zxing-2.2.8.aar\340d1a8002412d547e8ed3646d01964a\AndroidManifest.xml:22:5-29:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\366423602baabcc59f10b1a44c001c00\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\366423602baabcc59f10b1a44c001c00\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\26126033b005fb7b99c3ad99fd06339d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\26126033b005fb7b99c3ad99fd06339d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\3510c609821921647edf0414ca0badb0\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\3510c609821921647edf0414ca0badb0\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:transition:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\e8713581ebba06d6476b7505d38f48ee\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\e8713581ebba06d6476b7505d38f48ee\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\33ed7ca0f6fd3ad44420df3c38c621bc\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\33ed7ca0f6fd3ad44420df3c38c621bc\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\7a0f08eba699fd660b3a717dcae0a97c\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\7a0f08eba699fd660b3a717dcae0a97c\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\cd0880861f30300a432c201c1b2b140d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\cd0880861f30300a432c201c1b2b140d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\31685dfb13e68a797c62a9ad63653e96\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\31685dfb13e68a797c62a9ad63653e96\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\bf751ea769131a138b3c746f5458e9a8\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\bf751ea769131a138b3c746f5458e9a8\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\9369c2184a94fbeeee7c4cc6c45745f1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\9369c2184a94fbeeee7c4cc6c45745f1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\5061bb2b90004fe9431c74a28fa19781\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\5061bb2b90004fe9431c74a28fa19781\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\2c7fc481dcfaf695b04405c9bae5bc68\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\2c7fc481dcfaf695b04405c9bae5bc68\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f2fd8bcda13dddb8ec0b780752022f64\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f2fd8bcda13dddb8ec0b780752022f64\AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\902344e03920d031d389a08addf4dd00\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\902344e03920d031d389a08addf4dd00\AndroidManifest.xml:24:5-28:19
 	android:label
-		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:23:9-41
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:44:9-41
 	android:icon
-		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:22:9-45
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:43:9-43
 	android:allowBackup
-		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:21:9-35
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:42:9-35
 	android:theme
-		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:24:9-40
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:45:9-40
 meta-data#android.max_aspect
-ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:25:9-27:35
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:46:9-48:35
 	android:value
-		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:27:13-32
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:48:13-32
 	android:name
-		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:26:13-46
-activity#com.xiaobai.lanya.view.LoginMainActivity
-ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:28:9-38:20
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:47:13-46
+activity#com.xiaobai.bookStore.view.LoginMainActivity
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:50:9-60:20
 	android:screenOrientation
-		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:30:13-49
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:53:13-49
 	android:configChanges
-		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:31:13-74
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:52:13-74
 	android:name
-		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:29:13-51
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:51:13-51
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:33:13-37:29
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:55:13-59:29
 action#android.intent.action.MAIN
-ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:34:17-69
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:56:17-69
 	android:name
-		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:34:25-66
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:56:25-66
 category#android.intent.category.LAUNCHER
-ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:36:17-77
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:58:17-77
 	android:name
-		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:36:27-74
-activity#com.xiaobai.lanya.view.ZhuceActivity
-ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:39:9-44:20
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:58:27-74
+activity#com.xiaobai.bookStore.view.ZhuceActivity
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:61:9-65:52
 	android:screenOrientation
-		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:42:13-49
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:65:13-49
 	android:label
-		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:41:13-57
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:64:13-57
 	android:configChanges
-		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:43:13-74
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:63:13-74
 	android:name
-		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:40:13-47
-activity#com.xiaobai.lanya.view.ForgetActivity
-ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:45:9-48:20
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:62:13-47
+activity#com.xiaobai.bookStore.view.ForgetActivity
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:66:9-68:61
 	android:label
-		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:47:13-58
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:68:13-58
 	android:name
-		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:46:13-48
-activity#com.xiaobai.lanya.view.MainActivity
-ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:49:9-54:20
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:67:13-48
+activity#com.xiaobai.bookStore.view.MainActivity
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:69:9-73:52
 	android:screenOrientation
-		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:52:13-49
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:73:13-49
 	android:label
-		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:51:13-56
-	android:configChanges
-		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:53:13-74
-	android:name
-		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:50:13-46
-activity#com.xiaobai.lanya.view.LanyaFragment
-ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:55:9-60:20
-	android:screenOrientation
-		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:58:13-49
-	android:label
-		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:57:13-66
-	android:configChanges
-		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:59:13-74
-	android:name
-		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:56:13-47
-activity#com.xiaobai.lanya.view.GonggaolanFragment
-ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:61:9-66:20
-	android:screenOrientation
-		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:64:13-49
-	android:label
-		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:63:13-71
-	android:configChanges
-		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:65:13-74
-	android:name
-		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:62:13-52
-activity#com.xiaobai.lanya.view.SetFragment
-ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:67:9-72:20
-	android:screenOrientation
-		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:70:13-49
-	android:label
-		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:69:13-64
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:72:13-56
 	android:configChanges
 		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:71:13-74
 	android:name
-		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:68:13-62
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:70:13-46
+activity#com.xiaobai.bookStore.view.HomeFragment
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:74:9-78:52
+	android:screenOrientation
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:78:13-49
+	android:label
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:77:13-65
+	android:configChanges
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:76:13-74
+	android:name
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:75:13-46
+activity#com.xiaobai.bookStore.view.ReturnBookFragment
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:79:9-83:52
+	android:screenOrientation
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:83:13-49
+	android:label
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:82:13-71
+	android:configChanges
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:81:13-74
+	android:name
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:80:13-52
+activity#com.xiaobai.bookStore.view.TuijianFragment
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:84:9-88:52
+	android:screenOrientation
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:88:13-49
+	android:label
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:87:13-65
+	android:configChanges
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:86:13-74
+	android:name
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:85:13-49
+activity#com.xiaobai.bookStore.view.SearchActivity
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:89:9-57
+	android:name
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:89:19-54
+activity#com.xiaobai.bookStore.view.EditPersonActivity
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:90:9-61
+	android:name
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:90:19-58
+activity#com.xiaobai.bookStore.view.EditNameActivity
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:91:9-59
+	android:name
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:91:19-56
+activity#com.xiaobai.bookStore.view.EditPasswdActivity
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:92:9-61
+	android:name
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:92:19-58
+activity#com.xiaobai.bookStore.view.ServerYourelfActivity
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:93:9-64
+	android:name
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:93:19-61
+activity#com.xiaobai.bookStore.view.BuyScoreActivity
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:94:9-59
+	android:name
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:94:19-56
+activity#com.xiaobai.bookStore.view.NowBookActivity
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:95:9-58
+	android:name
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:95:19-55
+activity#com.xiaobai.bookStore.view.HistoryBookActivity
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:96:9-62
+	android:name
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:96:19-59
+activity#com.xiaobai.bookStore.view.ChooseStoreDialogActivity
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:97:9-68
+	android:name
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:97:19-65
+activity#com.xiaobai.bookStore.view.RentBookActivity
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:98:9-59
+	android:name
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:98:19-56
+activity#com.xiaobai.bookStore.view.RentBookTwoWeiPicActivity
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:99:9-68
+	android:name
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:99:19-65
+activity#com.xiaobai.bookStore.view.BookFriendTalkFragment
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:100:9-65
+	android:name
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:100:19-62
+activity#com.xiaobai.bookStore.view.AddTalkActivity
+ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:101:9-67
+	android:name
+		ADDED from F:\WorkspaceAndroid\Lanya\AndroidManifest.xml:101:19-55
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.github.yuzhiqiang1993:zxing:2.2.8] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\zxing-2.2.8.aar\340d1a8002412d547e8ed3646d01964a\AndroidManifest.xml:15:5-70
+	android:name
+		ADDED from [com.github.yuzhiqiang1993:zxing:2.2.8] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\zxing-2.2.8.aar\340d1a8002412d547e8ed3646d01964a\AndroidManifest.xml:15:19-67
+activity#com.yzq.zxinglibrary.android.CaptureActivity
+ADDED from [com.github.yuzhiqiang1993:zxing:2.2.8] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\zxing-2.2.8.aar\340d1a8002412d547e8ed3646d01964a\AndroidManifest.xml:23:9-28:67
+	android:screenOrientation
+		ADDED from [com.github.yuzhiqiang1993:zxing:2.2.8] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\zxing-2.2.8.aar\340d1a8002412d547e8ed3646d01964a\AndroidManifest.xml:26:13-49
+	android:windowSoftInputMode
+		ADDED from [com.github.yuzhiqiang1993:zxing:2.2.8] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\zxing-2.2.8.aar\340d1a8002412d547e8ed3646d01964a\AndroidManifest.xml:28:13-64
+	android:configChanges
+		ADDED from [com.github.yuzhiqiang1993:zxing:2.2.8] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\zxing-2.2.8.aar\340d1a8002412d547e8ed3646d01964a\AndroidManifest.xml:25:13-59
+	android:theme
+		ADDED from [com.github.yuzhiqiang1993:zxing:2.2.8] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\zxing-2.2.8.aar\340d1a8002412d547e8ed3646d01964a\AndroidManifest.xml:27:13-63
+	android:name
+		ADDED from [com.github.yuzhiqiang1993:zxing:2.2.8] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\zxing-2.2.8.aar\340d1a8002412d547e8ed3646d01964a\AndroidManifest.xml:24:13-72
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\366423602baabcc59f10b1a44c001c00\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\26126033b005fb7b99c3ad99fd06339d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\26126033b005fb7b99c3ad99fd06339d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\e8713581ebba06d6476b7505d38f48ee\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\e8713581ebba06d6476b7505d38f48ee\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\33ed7ca0f6fd3ad44420df3c38c621bc\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\33ed7ca0f6fd3ad44420df3c38c621bc\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\7a0f08eba699fd660b3a717dcae0a97c\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\7a0f08eba699fd660b3a717dcae0a97c\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\cd0880861f30300a432c201c1b2b140d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\cd0880861f30300a432c201c1b2b140d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\31685dfb13e68a797c62a9ad63653e96\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\31685dfb13e68a797c62a9ad63653e96\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\bf751ea769131a138b3c746f5458e9a8\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\bf751ea769131a138b3c746f5458e9a8\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\9369c2184a94fbeeee7c4cc6c45745f1\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\9369c2184a94fbeeee7c4cc6c45745f1\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\5061bb2b90004fe9431c74a28fa19781\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\5061bb2b90004fe9431c74a28fa19781\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\2c7fc481dcfaf695b04405c9bae5bc68\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\2c7fc481dcfaf695b04405c9bae5bc68\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f2fd8bcda13dddb8ec0b780752022f64\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f2fd8bcda13dddb8ec0b780752022f64\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\366423602baabcc59f10b1a44c001c00\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\366423602baabcc59f10b1a44c001c00\AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\902344e03920d031d389a08addf4dd00\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\902344e03920d031d389a08addf4dd00\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\dell-pc\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\902344e03920d031d389a08addf4dd00\AndroidManifest.xml:26:13-58

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:fadingEdge="vertical"
+        android:fillViewport="true"
+        android:scrollbars="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/server1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.为什么要设置信用分？"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/server2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/server1"
+                android:layout_marginTop="10dp"
+                android:text="      信用分是评价一个用户的标准，当信用分达到最低标准时，我们才能为您提供好的服务，希望您能理解！"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/server3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/server2"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:text="2.租借服务是否收费？我是否可以拿回我用于购买信用分的资金？"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/server4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/server3"
+                android:layout_marginTop="10dp"
+                android:text="       线下租借服务是完全免费的，网上租借，但是用于充值信用分的资金是无法退回哦亲！这是为了让用户更加珍惜自己的信用，这也是该信用服务继续维持下去的基础，希望用户能够理解！"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/server5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/server4"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"
+                android:text="3.共享书店的工作时间是几点到几点？我啥时候能租借归还书籍？"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/server6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/server5"
+                android:layout_marginTop="10dp"
+                android:text="      共享书店的工作时间是每天早上9点30到晚上7点（除开周一和周日），周日和周一因为要重新平均分配书籍数量，所以周日下午3点到周一中午12点系统会进入维护状态，请各位用户记得租借归还时错开时间！"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/server7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/server6"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"
+                android:text="4.信用分扣分准则是怎样的？我被扣分后如何补上来？"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/server8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/server7"
+                android:layout_marginTop="10dp"
+                android:text="      租借书籍时默认租借时间为一周，即周一租借，则还书日期为下周一晚上23:59之前，在借期间，如果未超过最大租借期，每本书可续租一次，一次续租一周，超时后及时有续租次数，也无法进行续租服务，单账号只允许一次借一本，归还后可借下一本，超时前可续租一次，超时后不可续租，超时大于3天小于等于6天，信用分扣3分，超时大于等于7天扣11分，低于90分停止租借功能，被扣分后可通过充值来使信用分回归正常值，2分/元，请各位用户知悉！"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/server9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/server8"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"
+                android:text="5.关于开发者，是否允许商用？"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/server10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/server9"
+                android:layout_marginTop="10dp"
+                android:text="      个人开发者：小白，纯兴趣，禁止用于商用！侵权必究！"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

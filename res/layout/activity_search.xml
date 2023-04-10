@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/head_name_in_search" layout="@layout/head"/>
+
+    <TextView android:id="@+id/search_activity_bookName"
+        android:layout_below="@+id/head_name_in_search"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="书名"/>
+
+    <TextView android:id="@+id/search_activity_bookStore"
+        android:layout_below="@+id/head_name_in_search"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/search_activity_bookName"
+        android:gravity="center"
+        android:text="书店名"/>
+
+    <TextView android:id="@+id/search_activity_bookAddress"
+        android:layout_below="@+id/head_name_in_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="书店详细地址"
+        android:layout_toEndOf="@+id/search_activity_bookStore"
+        android:layout_toStartOf="@+id/search_activity_bookNum"
+        android:layout_marginTop="10dp"/>
+
+    <TextView android:id="@+id/search_activity_bookNum"
+        android:layout_below="@+id/head_name_in_search"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"
+        android:text="剩余"/>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:fadingEdge="vertical"
+        android:fillViewport="true"
+        android:layout_below="@id/search_activity_bookAddress">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ListView android:id="@+id/search_lv_listView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></ListView>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

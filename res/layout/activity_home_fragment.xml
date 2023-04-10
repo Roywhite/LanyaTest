@@ -1,0 +1,128 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDFFFF">
+
+    <include
+        android:id="@+id/head_name_in_lanya"
+        layout="@layout/head" />
+
+    <!--<TextView android:id="@+id/lanya_text"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="主界面"-->
+    <!--android:layout_marginLeft="12dp"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:layout_below="@+id/head_name_in_lanya"/>-->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/head_name_in_lanya"
+        android:layout_centerInParent="true">
+
+        <EditText
+            android:id="@+id/lanya_et_search"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/edittext_round"
+            android:gravity="center"
+            android:hint="输入书名，查询所在店面及待借数量"
+            android:inputType="text"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/lanya_bt_search"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/search_image"
+            android:gravity="center"
+            android:textSize="20dp" />
+
+        <RelativeLayout
+            android:id="@+id/lanya_rl_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lanya_et_search"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp">
+
+            <ImageButton
+                android:id="@+id/lanya_ib_score"
+                android:layout_width="350dp"
+                android:layout_height="280dp"
+                android:background="@drawable/score_image"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="50dp"
+                android:text="信用分："
+                android:textColor="#ca325971"
+                android:textSize="28dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/lanya_tv_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="90dp"
+                android:text="加载中..."
+                android:textColor="#f16b6b"
+                android:textSize="58dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="180dp"
+                android:text="点击刷新信用分"
+                android:textSize="20dp" />
+        </RelativeLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_below="@id/lanya_rl_score"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="#E8E8E8" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lanya_rl_score"
+            android:layout_centerHorizontal="true">
+
+            <Button
+                android:id="@+id/lanya_bt_book_now"
+                android:layout_width="175dp"
+                android:layout_height="180dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/now_book_image"
+                android:scaleType="centerInside"
+                android:text="在借书籍简介" />
+
+            <Button
+                android:id="@+id/lanya_bt_book_history"
+                android:layout_width="175dp"
+                android:layout_height="165dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@id/lanya_bt_book_now"
+                android:background="@drawable/history_book_image"
+                android:scaleType="centerInside"
+                android:text="历史订单信息" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>
